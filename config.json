@@ -1,0 +1,18 @@
+{
+    "PORT": 8000,
+    "DISCORD_TOKEN": "",
+    "DISCORD_CHANNEL_ID": "",
+    "DISCORD_MESSAGE_TEMPLATE": "`%username%`:%message%",
+    "DISCORD_LOG_ID": "",
+    "MINECRAFT_SERVER_RCON_IP": "",
+    "MINECRAFT_SERVER_RCON_PORT": ,
+    "MINECRAFT_SERVER_RCON_PASSWORD": "",
+    "MINECRAFT_TELLRAW_TEMPLATE": "[{\"color\": \"white\", \"text\": \"<%username%> %message%\"}]",
+    "MINECRAFT_WARN_EMO": "[{\"color\": \"red\", \"text\": \" [WARN] Emojis are not supported\"}]",
+    "MINECRAFT_COMMAND_TEMPLATE": "[{\"color\": \"green\", \"text\": \"%message%\"}]",
+    "WEBHOOK": "/minecraft/hook",
+    "REGEX_MATCH_CHAT_MC": "\\[Server thread/INFO\\]: <([^>]*)> (.*)",
+    "REGEX_IGNORED_CHAT": "packets too frequently",
+    "RCON_RECONNECT_DELAY": 10,
+    "DEBUG": false
+}
