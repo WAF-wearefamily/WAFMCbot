@@ -76,7 +76,7 @@ therealf.on("message", function(message) {
         if (message.author.id !== therealf.user.id) {
             var client = new Rcon(c.MINECRAFT_SERVER_RCON_IP, c.MINECRAFT_SERVER_RCON_PORT); // create rcon client
             client.auth(c.MINECRAFT_SERVER_RCON_PASSWORD, function(err) { // only authenticate when needed
-                if (message.content.startsWith("!mc-help")){
+                if (message.content.startsWith("!mc-help")){ //help list
                      var channel = c.DISCORD_CHANNEL_ID;
                      therealf.channels.get(channel).send("```" +
                                       "+-------------------------------------------------------------------+"
